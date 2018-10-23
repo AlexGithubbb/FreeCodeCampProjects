@@ -1,0 +1,105 @@
+html,
+body{
+	background-color: #9cf;
+	text-align: center;
+	font-family: "Raleway", "Rozha One";
+}
+.form-outer{
+	width:80%;
+	margin: 0 auto;
+	background-color: white;
+	height: 800px;
+	padding-top: 20px;
+}
+
+.labels{
+	width: 30%;
+	display: inline-block;
+	text-align: right;
+	vertical-align: top;
+	padding: 5px;
+	margin: 5px;
+}
+
+.rightTab{
+	width: 40%;
+	display: inline-block;
+	text-align: left; 
+}
+
+input{
+	width:60%;
+	height: 20px;
+	margin: 5px;
+	padding: 5px 10px;
+	border: 1px solid #c0c0c0;
+	border-radius: 2px;
+}
+
+.dropdown{
+	width:25%;
+	height: 35px;
+	margin: 5px;
+	border-radius: 2px;
+}
+.ratings{
+	margin-top: 18px
+}
+ul{
+	display: block;
+	list-style: none;
+	padding: 0px;
+	margin: 10px 0;
+}
+
+/*label{
+	vertical-align: top;
+}*/
+.radio{
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.userRatings{
+	width: 5px;
+	margin-top: 0px;
+	float: left;
+}
+
+.improvedUl{
+	margin-left: 2px;
+}
+
+.improvedThings{
+	position: relative;
+	width: 70%;
+	margin:5px 10px;
+	padding-left: 20px;
+	padding-top: 3px;
+}
+
+.improvedLi{
+	position:absolute;
+	width:20px;
+	float: left;
+	left: -12px;
+	top:-2px;
+/*	margin: 20px;
+*/}
+
+textarea{
+	margin-top: 10px;
+	margin-left: 6px;
+}
+button{
+	margin-top: 30px;
+	width: 130px;
+	height: 40px;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	background-color: #090;
+	color: white;
+}
+
+
+

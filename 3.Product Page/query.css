@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1300px) {
+	.row{
+	width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	.col{
+	display: inline-block;
+	width: 26%;
+	height: auto;
+	margin: 5px 20px;
+	border-radius: 5px;	
+	}
+	.email{
+	margin-top: 20px;
+	width: 25%;
+	height: 30px;
+	border: 1px solid #e6e6e6;	
+	}
+
+}
+
+@media only screen and (max-width:768px) {
+	.row{
+		width: 80%;
+		margin:0 auto;
+	}
+	.col{
+		display: block;
+		width: 60%;
+		height: auto;
+		margin: 20px auto;
+		border-radius: 5px;	
+	}
+	.main-nav{
+		flex-direction: column;
+	}
+	.logo img{
+		height: 30px;
+		margin-top: 20px;
+	}
+	.email{
+		margin: 20px auto;
+		width: 40%;
+		height: 35px;
+		border: 1px solid #e6e6e6;	
+	}
+	input[type='submit']{
+		display: block;
+		margin: 20px auto;
+		font-size: 15px;
+		width: 30%;
+		height: auto;
+		padding: 10px 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.section-email{
+		margin-top: 150px;
+	}
+	.logo img{
+		display: none;
+	}
+}
